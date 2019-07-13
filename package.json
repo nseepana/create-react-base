@@ -15,8 +15,7 @@
         "format": "npm run prettier -- --write --list-different",
         "build:dev": "webpack-dev-server --open --config wpconfig/webpack.config.js --env.env=dev",
         "build": "webpack -p --config wpconfig/webpack.config.js --env.env=prod",
-        "validate": "npm run lint && npm run prettier && npm run flow",
-        "precommit": "lint-staged && npm run validate"
+        "validate": "npm run lint && npm run prettier && npm run flow"
     },
     "dependencies": {
         "react": "^16.8.6",
