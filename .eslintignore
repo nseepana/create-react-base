@@ -1,0 +1,4 @@
+node_modules/
+dist/
+wpconfig/
+#public/
